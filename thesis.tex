@@ -1,0 +1,86 @@
+\documentclass[12pt]{report}
+\graphicspath{ {images/} }
+
+% Bibliography
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{}{;}
+
+% Use 'It was found that A is B (Name 1234)' style
+\setcitestyle{authoryear,open={},close={}}
+
+% Affiliations
+\usepackage{authblk}
+
+\title{
+  {The error in trees without birds}\\
+  {\large University of Groningen}\\
+  {\includegraphics{rugr_logonl_rood_rgb.jpg}}
+}
+\author{Rich\`el J.C. Bilderbeek}
+\date{Day Month Year}
+
+% Use double spacing
+\usepackage{setspace}
+\doublespacing
+
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{todonotes}
+\usepackage{verbatim}
+\usepackage{pgf}
+\usepackage{bm}
+\usepackage{multirow}
+\usepackage{amsfonts}
+\usepackage{array}
+\usepackage{array}
+\usepackage{booktabs}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{mathtools}
+\usepackage{float}
+
+\usepackage{tkz-graph}
+\usetikzlibrary{arrows,automata}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows.meta}
+
+% sidewaysfigure
+\usepackage{rotating}
+
+% Adds numbered lines
+\usepackage{lineno}
+\linenumbers
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+Abstract goes here
+ 
+\chapter*{Dedication}
+To mum and dad
+ 
+\chapter*{Declaration}
+I declare that..
+ 
+\chapter*{Acknowledgements}
+I want to thank...
+ 
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MEE style
+\bibliographystyle{mee}
+\bibliography{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Appenix chapter 1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
