@@ -1,7 +1,20 @@
 \documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{float}
 
-\title{The error in trees without birds}
+% sidewaysfigure
+\usepackage{rotating}
+
+
+\graphicspath{ {images/} }
+
+
+\title{
+  {The error in trees without birds} \\
+  {\large University of Groningen} \\
+  {\includegraphics[width=\textwidth]{rugr_logonl_rood_rgb.jpg}}
+}
 \author{Rich\`el J.C. Bilderbeek}
 \date{Day Month Year}
 
@@ -9,6 +22,24 @@
 
 \maketitle
 
-\section{Chapter 1}
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\chapter{Acknowledgments}
+\input{chapters/acknowledgments}
+
+% Title and contents](title_and_contents/README.md)
+% Introduction](introduction/README.md)
+% Chapter 1](chapter_1/README.md)
+% Chapter 2](chapter_2/README.md)
+% Chapter 3](chapter_3/README.md)
+% Chapter 4](chapter_4/README.md)
+% Chapter 5](chapter_5/README.md)
+% Synthesis](synthesis/README.md)
+% References](references/README.md)
+% Summary](summary/README.md)
+% Samenvatting](samenvatting/README.md)
+% Acknowledgements](acknowledgements/README.md)
+
 
 \end{document}

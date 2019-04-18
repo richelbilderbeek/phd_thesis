@@ -1,0 +1,6 @@
+#!/bin/bash
+
+dot -Tpng graph.dot > letters.png
+# Yuck twopi -Tpng graph.dot > letters.png
+#circo -Tpng graph.dot > letters_circo.png
+# fdp -Tpng graph.dot > letters_fdp.png
