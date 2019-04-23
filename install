@@ -1,0 +1,17 @@
+#!/bin/bash
+# Installs the prerequisites
+#
+# Usage:
+#
+# sudo ./install
+sudo apt install texlive texlive-fonts-extra
+
+# Obsolete, use below instead
+#sudo apt install texlive-math-extra
+sudo apt install texlive-science-doc texlive-science
+
+# Obsolete: texlive-lang-dutch 
+sudo apt install texlive-lang-european texlive-lang-portuguese
+
+sudo apt install texlive-lang-english texlive-latex-extra texlive-xetex
+
