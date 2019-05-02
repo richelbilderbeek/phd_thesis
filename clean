@@ -1,8 +1,8 @@
 #!/bin/bash
-rm thesis.toc
-rm thesis.aux
-rm thesis.bbl
-rm thesis.blg
-rm thesis.log
-rm thesis.out
-rm thesis.pdf
+rm dissertation.toc
+rm dissertation.aux
+rm dissertation.bbl
+rm dissertation.blg
+rm dissertation.log
+rm dissertation.out
+rm dissertation.pdf
