@@ -1,3 +1,12 @@
 [submodule "babette_article"]
 	path = babette_article
 	url = https://github.com/richelbilderbeek/babette_article
+[submodule "razzo_article"]
+	path = razzo_article
+	url = https://github.com/richelbilderbeek/razzo_article
+[submodule "raket_article"]
+	path = raket_article
+	url = https://github.com/richelbilderbeek/raket_article
+[submodule "pirouette_article"]
+	path = pirouette_article
+	url = https://github.com/richelbilderbeek/pirouette_article
