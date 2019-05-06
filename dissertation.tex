@@ -57,6 +57,16 @@
 \usetikzlibrary{calc}
 \usetikzlibrary{arrows.meta}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% raket commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Annotation/feedback commands
+\newcommand*\rampal[1]{\textcolor{red}{\textbf{#1}}}
+\newcommand*\RAMPAL[1]{\textcolor{blue}{\textbf{[RSE: #1]}}}
+\newcommand*\richel[1]{\textcolor{orange}{\textbf{[RJCB: #1]}}}
+\newcommand*\mean[1]{\overline{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \raggedbottom % remove unwanted spaces between paragraphs
 %%%% List of common used terms
@@ -100,7 +110,12 @@ Rich\`el J.C. Bilderbeek, Rampal S. Etienne
 \newpage
 \include{babette_article/article/content}
 
-\include{chapter-2/chapter-2}
+%\chapter{raket}
+%\label{chapter_raket}
+%Rich\`el J.C. Bilderbeek, Rampal S. Etienne
+%\newpage
+%\include{raket_article/content}
+
 \include{conclusion/conclusion}
 
 % RJCB: Nah, don't need it
