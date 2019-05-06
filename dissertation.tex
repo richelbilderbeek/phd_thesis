@@ -1,7 +1,7 @@
 %% Use \documentclass[print]{dissertation} to export the document
 \documentclass[]{dissertation}
 
-\graphicspath{ {images/} }
+\graphicspath{{images/}{babette_article/article/}{raket_article/}}
 
 \usepackage{authblk}
 
@@ -67,7 +67,6 @@
 \newcommand*\mean[1]{\overline{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \raggedbottom % remove unwanted spaces between paragraphs
 %%%% List of common used terms
 
@@ -109,12 +108,13 @@
 Rich\`el J.C. Bilderbeek, Rampal S. Etienne
 \newpage
 \include{babette_article/article/content}
+\include{babette_article/article/figure_1}
 
-%\chapter{raket}
-%\label{chapter_raket}
-%Rich\`el J.C. Bilderbeek, Rampal S. Etienne
-%\newpage
-%\include{raket_article/content}
+\chapter{raket}
+\label{chapter_raket}
+Rich\`el J.C. Bilderbeek, Rampal S. Etienne
+\newpage
+\include{raket_article/content}
 
 \include{conclusion/conclusion}
 
@@ -122,7 +122,7 @@ Rich\`el J.C. Bilderbeek, Rampal S. Etienne
 %\include{epilogue/epilogue}
 
 % RJCB: Nah, don't need it
-%\include{acks/acks}
+% \include{acks/acks}
 
 %% Use letters for the chapter numbers of the appendices.
 \appendix
