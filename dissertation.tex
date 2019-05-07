@@ -1,7 +1,13 @@
 %% Use \documentclass[print]{dissertation} to export the document
 \documentclass[]{dissertation}
 
-\graphicspath{{images/}{babette_article/article/}{pirouette_article/}{raket_article/}}
+\graphicspath{
+  {images/}
+  {babette_article/article/}
+  {pirouette_article/}
+  {razzo_article/}
+  {raket_article/}
+}
 
 \usepackage{authblk}
 
@@ -65,6 +71,10 @@
 \newcommand{\giovanni}[1]{\textcolor{blue}{\textbf{[GL: #1]}}}
 \newcommand{\richel}[1]{\textcolor{orange}{\textbf{[RB: #1]}}}
 \newcommand{\rampal}[1]{\textcolor{green}{\textbf{[RSE: #1]}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% razzo commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\gio}[1]{\textcolor{blue}{\textbf{[GL: #1]}}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % raket commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,8 +146,8 @@ Rich\`el J.C. Bilderbeek, Giovanni Laudanno, Rampal S. Etienne
 \label{chapter_razzo}
 Rich\`el J.C. Bilderbeek, Giovanni Laudanno, Rampal S. Etienne
 \newpage
-% \include{razzo_article/content}
-razzo content here
+\include{razzo_article/content}
+\include{razzo_article/supplement}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % raket
@@ -148,6 +158,9 @@ Rich\`el J.C. Bilderbeek, Rampal S. Etienne
 \newpage
 \include{raket_article/content}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conlusion
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{conclusion/conclusion}
 
 % RJCB: Nah, don't need it
