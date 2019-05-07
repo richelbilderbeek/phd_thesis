@@ -1,7 +1,7 @@
 %% Use \documentclass[print]{dissertation} to export the document
 \documentclass[]{dissertation}
 
-\graphicspath{{images/}{babette_article/article/}{raket_article/}}
+\graphicspath{{images/}{babette_article/article/}{pirouette_article/}{raket_article/}}
 
 \usepackage{authblk}
 
@@ -52,18 +52,24 @@
 }
 \lstset{style=mystyle}
 
+\usepackage{float}
+
 % TikZ drawing
 \usetikzlibrary{arrows,automata}
 \usetikzlibrary{calc}
 \usetikzlibrary{arrows.meta}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% pirouette commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\giovanni}[1]{\textcolor{blue}{\textbf{[GL: #1]}}}
+\newcommand{\richel}[1]{\textcolor{orange}{\textbf{[RB: #1]}}}
+\newcommand{\rampal}[1]{\textcolor{green}{\textbf{[RSE: #1]}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % raket commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Annotation/feedback commands
-\newcommand*\rampal[1]{\textcolor{red}{\textbf{#1}}}
 \newcommand*\RAMPAL[1]{\textcolor{blue}{\textbf{[RSE: #1]}}}
-\newcommand*\richel[1]{\textcolor{orange}{\textbf{[RJCB: #1]}}}
 \newcommand*\mean[1]{\overline{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -120,8 +126,8 @@ Rich\`el J.C. Bilderbeek, Rampal S. Etienne
 \label{chapter_pirouette}
 Rich\`el J.C. Bilderbeek, Giovanni Laudanno, Rampal S. Etienne
 \newpage
-% \include{pirouette_article/content}
-pirouette content here
+\include{pirouette_article/content}
+%\include{pirouette_article/supplement}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % razzo
