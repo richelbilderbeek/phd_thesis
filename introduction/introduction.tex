@@ -19,7 +19,7 @@ event take place?' and 'Who is the ancestor of which species?'.
 Figure \ref{fig:phylogeny} shows an example phylogeny:
 
 \begin{figure}[H]
-  \includegraphics[width=0.4\textwidth]{phylogeny_twin.png}
+  \includegraphics[width=0.4\textwidth]{phylogeny.png}
   \caption{
     A phylogeny with six species
   }
@@ -38,16 +38,49 @@ Phylogenies cannot be measured directly, as they depict which species lived
 when \emph{in the past}. Even with a time machine, we would have a hard time
 to observe when a speciation event took place. In the present, however, we
 do have species that carry their own evolutionary history with them, in the
-form of DNA. 
+form of DNA. From the species we are interested in, 
+we can obtain (part of) their DNA sequences. DNA sequences of different species 
+may vary in length, due to insertions and deletions in genetic sequences.
+Usually, we use a procedure (a software tool, for example) to align 
+the sequences, as shown in figure \ref{fig:alignment}:
 
 \begin{figure}[H]
-  \includegraphics[width=0.8\textwidth]{alignment_twin.png}
+  \includegraphics[width=0.8\textwidth]{alignment.png}
   \caption{
-    A DNA alignment of the six species
+    A 40-nucleotide DNA alignment of the six species
   }
   \label{fig:alignment}
 \end{figure}
 
+Figure \ref{fig:alignment} shows an alignment of our six hypothetical species
+that we actually could have found in nature. From this alignment, we
+can \emph{infer} a phylogeny, which basically means 'best guess following a 
+rational procedure'. There are multiple ways to infer a phylogeny, for
+example, using maximum likelihood or Bayesian inference. In this thesis, 
+I focus on the latter.
+
+With Bayesian inference, we use an alignment and our model assumptions to infer 
+a posterior (more 
+precise: 'a joint posterior distribution of phylogenies and model parameters').
+A posterior contains multiple inferred phylogenies, in which the more likely
+ones are present more often. This distribution of phylogenies shows the
+(un)certainty of the inference. Figure \ref{fig:densitree} shows the
+posterior phylogenies we obtain from our alignment:
+
+\begin{figure}[H]
+  \includegraphics[width=0.8\textwidth]{densitree.png}
+  \caption{
+    The posterior phylogenies of the six species
+  }
+  \label{fig:densitree}
+\end{figure}
+
+Figure \ref{fig:densitree} shows a high degree of uncertainty, as the
+inferred phylogenies vary widely in shape. The inference only
+weakly distinguishes between the ABC and DEF clades. 
+
+The inference described so far is unsatisfactory, as we can only draw 
+weak conclusions. 
 
 
 %\references{dissertation}
