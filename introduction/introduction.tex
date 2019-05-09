@@ -4,8 +4,6 @@
 %% Start the actual chapter on a new page.
 \newpage
 
-\section{Speciation}
-
 \noindent 
 \dropcap{S}{peciation} is the process that creates new species,
 connecting all of life to one shared common ancestor. This process
@@ -45,7 +43,7 @@ Usually, we use a procedure (a software tool, for example) to align
 the sequences, as shown in figure \ref{fig:alignment}:
 
 \begin{figure}[H]
-  \includegraphics[width=0.8\textwidth]{alignment.png}
+  \includegraphics[width=0.8\textwidth]{alignment_40.png}
   \caption{
     A 40-nucleotide DNA alignment of the six species
   }
@@ -68,9 +66,10 @@ ones are present more often. This distribution of phylogenies shows the
 posterior phylogenies we obtain from our alignment:
 
 \begin{figure}[H]
-  \includegraphics[width=0.8\textwidth]{densitree.png}
+  \includegraphics[width=0.8\textwidth]{densitree_40.png}
   \caption{
-    The posterior phylogenies of the six species
+    The posterior phylogenies of the six species, 
+    from a DNA alignment of 40 nucleotides
   }
   \label{fig:densitree}
 \end{figure}
@@ -80,7 +79,64 @@ inferred phylogenies vary widely in shape. The inference only
 weakly distinguishes between the ABC and DEF clades. 
 
 The inference described so far is unsatisfactory, as we can only draw 
-weak conclusions. 
+weak conclusions. We can improve the inference by using a longer DNA sequence 
+or by picking a better inference model. In a simulation study, we can
+easily increase the number of nucleotides, 
+figure \ref{fig:densitree_again} shows the
+posterior phylogenies we obtain from our longer alignment:
+
+\begin{figure}[H]
+  \includegraphics[width=0.8\textwidth]{densitree_400.png}
+  \caption{
+    The posterior phylogenies of the six species,
+    from a DNA alignment of 400 nucleotides
+  }
+  \label{fig:densitree_again}
+\end{figure}
+
+Figure \ref{fig:densitree_again} shows that in this example,
+with more information, we can only show our uncertainty more clearly. 
+
+Another way to improve our inference is using a better inference model.
+An inference model embodies our assumptions on how we think evolution
+works, and consists of (1) how nucleotides mutate to others (also
+called 'the site model'), (2) how often mutations occur (also 
+called 'the clock model'), and (3) how speciation works (also 
+called 'the tree prior' or 'the speciation model'). 
+Theory predicts that usually the inference model becomes less important
+if there is more information in an alignment. The example shows here,
+however, shows one of the exceptions.
+
+Ideally, we pick an inference model identical to the actual way things 
+work (or: 'the true model'), be it in nature
+or \textit{in silico}. In practice, the true model that nature uses is unknown.
+Due to this, scientists came up with many models to explain the 
+DNA (RNA, protein, morpholical and fossil) data best.
+
+In a theoretical study, when can simply pick how nature works; that is,
+how it is simulated. Theoretical studies are useful, as these explore
+how well we will ever be able to explain nature. To do so, a 'true' 
+speciation model is picked to generate 'true' phylogenies. 
+From these phylogenies, a 'true' site model and clock model are used to
+simulate a 'true' alignment. From that 'true' alignment, which is the
+data we can gather from nature, we can then see how close our inferred
+phylogenies are to the 'true' phylogeny.
+
+The difference between a known 'true' phylogeny and an inferred posterior
+of phylogenies can be quantified using an error statistic. One way to
+do so, is to take the error between two summary statistics. A summary
+statistic summarizes part of the information embedded within a tree to
+one or more values. Examples are the $\gamma$ statistic to ... and
+the nLTT statistic [Janzen et al., ?]. The latter we use ...
+
+
+
+
+
+
+There are many papers about which model works best on which data.
+ 
+
 
 
 %\references{dissertation}
