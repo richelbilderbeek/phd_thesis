@@ -122,24 +122,6 @@ simulate a 'true' alignment. From that 'true' alignment, which is the
 data we can gather from nature, we can then see how close our inferred
 phylogenies are to the 'true' phylogeny.
 
-
-There are many ways to quantify how similar two phylogenies are,
-as phylogenies are complex structures. A summary statistic puts
-a certain aspect of a tree into one or more numbers, for example,
-the nLTT statistic [Janzen et al., ?] 
-
-Simple examples are 
-
-(in this
-case, the known 'true' phylogeny and an inferred posterior
-of phylogenies needs to be quantified, to know how well the inference
-
-can be quantified using an error statistic. One way to
-do so, is to take the error between two summary statistics. A summary
-statistic summarizes part of the information embedded within a tree to
-one or more values. Examples are the $\gamma$ statistic to ... and
-the nLTT statistic . The latter we use ...
-
 \begin{figure}[H]
   \centering
   \subfloat[True tree] {
@@ -157,10 +139,14 @@ the nLTT statistic . The latter we use ...
   \label{fig:nltts}
 \end{figure}
 
-There are many papers about which model works best on which data.
- 
+There are many ways to quantify how similar two phylogenies are. 
+The normalized lineages-through-time (nLTT) statistic [\cite{janzen2015approximate}] simplifies
+a phylogeny to a number of lineages (the number of branches) in time.
+Both number of lineages and time are normalized to have a maximum of one,
+which allows us to compare two trees of any number of tips of any crown age.
+The difference between two phylogenies is simply the surface between the
+two phylogenies' nLTT plots.
 
 
-
-%\references{dissertation}
+\references{introduction}
 
