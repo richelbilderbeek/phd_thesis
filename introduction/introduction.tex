@@ -145,8 +145,24 @@ a phylogeny to a number of lineages (the number of branches) in time.
 Both number of lineages and time are normalized to have a maximum of one,
 which allows us to compare two trees of any number of tips of any crown age.
 The difference between two phylogenies is simply the surface between the
-two phylogenies' nLTT plots.
+two phylogenies' nLTT plots. If two phylogenies are identical in 
+normalized shape, the nLTT difference between them in zero, else the
+value will be higher, with a maximum of one. Because the value of the 
+nLTT increases with increasing difference between the trees, the nLTT statistic
+is a measure of difference, or error. 
 
+In this thesis, I quantify the errors we make in our phylogenetic inference:
+
+\begin{itemize}
+	\item In chapter 2, I show an R package I developed to do Bayesian
+    inference from the command-line
+	\item In chapter 3, me and Giovanni Laudanno describe an R package we 
+    developed to quantify the error we make in phylogenetic inference
+	\item In chapter 4, Giovanni Laudanno and I quantify the error we make 
+    in phylogenetic trees when speciation can co-occur
+	\item In chapter 5, I quantify the error we make 
+    in phylogenetic trees when speciation takes time
+\end{itemize}
 
 \references{introduction}
 
