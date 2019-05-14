@@ -1,7 +1,8 @@
 #!/bin/bash
 
 pdflatex dissertation
-bibtex chapter-1/chapter-1
+bibtex dissertation
+#bibtex babette_article/article/article
 pdflatex dissertation
 pdflatex dissertation
 
