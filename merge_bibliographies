@@ -1,0 +1,8 @@
+#!/bin/bash
+
+bibtool -s -d \
+  babette_article/article/article.bib \
+  pirouette_article/article.bib \
+  razzo_article/article/article.bib \
+  raket_article/article/article.bib \
+  -o dissertation.bib
