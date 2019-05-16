@@ -3,7 +3,7 @@
 pdflatex dissertation
 #bibtex dissertation
 bibtex introduction/introduction
-#bibtex babette_article/article/article
+bibtex babette_article/article/article
 #bibtex pirouette_article/article
 #bibtex razzo_article/article
 #bibtex raket_article/article
