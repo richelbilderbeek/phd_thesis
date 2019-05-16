@@ -13,7 +13,7 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 %% English is the default language, but Dutch is used for some sections.
-\RequirePackage[dutch,portuguese,english]{babel}
+\RequirePackage[dutch,english]{babel}
 \RequirePackage{calc}
 
 %%%% Custom figure caption
