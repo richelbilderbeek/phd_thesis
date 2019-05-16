@@ -4,9 +4,9 @@ pdflatex dissertation
 #bibtex dissertation
 bibtex introduction/introduction
 bibtex babette_article/article/article
-#bibtex pirouette_article/article
-#bibtex razzo_article/article
-#bibtex raket_article/article
+bibtex pirouette_article/content
+bibtex razzo_article/content
+bibtex raket_article/content
 pdflatex dissertation
 pdflatex dissertation
 
