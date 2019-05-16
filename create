@@ -1,11 +1,16 @@
 #!/bin/bash
 
 pdflatex dissertation
-bibtex chapter-1/chapter-1
+bibtex introduction/introduction
+#bibtex babette_article/article/article
+#bibtex pirouette_article/article
+#bibtex razzo_article/article
+#bibtex raket_article/article
 pdflatex dissertation
 pdflatex dissertation
 
-#pdflatex thesis.tex --shell-escape
-#bibtex thesis.aux
-#pdflatex thesis.tex --shell-escape
-#pdflatex thesis.tex --shell-escape
+# Also an option:
+#
+#   pdflatex dissertation --shell-escape
+#
+#
