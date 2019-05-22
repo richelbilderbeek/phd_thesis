@@ -1,0 +1,3 @@
+#!/bin/bash
+
+epstopdf rugr_fse_logoen_rood_cmyk.eps rugr_fse_logoen_rood_cmyk.pdf
