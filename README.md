@@ -1,5 +1,9 @@
 # Thesis
 
+Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
+---|---
+`master`|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis)
+
 Use LaTeX template from [Victor Caldas](https://github.com/vcaldas/Groningen-thesis-template).
 
 # Thesis
