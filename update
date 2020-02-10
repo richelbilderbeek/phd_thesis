@@ -5,4 +5,11 @@
 #
 # ./update
 #
-git submodule update --recursive --remote
+#git submodule update --recursive --remote
+
+for folder in babette_article thesis_introduction pirouette_article razzo_article raket_article thesis_introduction
+do
+  cd $folder
+  git pull
+  cd ..
+done
