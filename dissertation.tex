@@ -7,7 +7,7 @@
   {babette_article/article/}
   {pirouette_article/}
   {razzo_article/}
-  {raket_article/}
+  {thesis_synthesis/}
 }
 
 \usepackage{authblk}
@@ -111,15 +111,7 @@
 
 \include{title/title}
 
-%% The (optional) dedication can be used to thank someone or display a
-%% significant quotation.
-% RJCB: Nah, don't need it
-%\dedication{\epigraph{Science is a wonderful thing \\ if one does not have to earn one's living at it.}{Albert Einstein}}
-
 \tableofcontents
-
-% RJCB: Nah, don't need it
-%\include{preface/preface}
 
 %% Use Arabic numerals for the page numbers of the chapters.
 \mainmatter
@@ -128,7 +120,6 @@
 \thumbtrue
 
 \include{thesis_introduction/introduction}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % babette
@@ -148,10 +139,9 @@ Rich\`el J.C. Bilderbeek, Rampal S. Etienne
 \label{chapter_pirouette}
 Rich\`el J.C. Bilderbeek, Giovanni Laudanno, Rampal S. Etienne
 \newpage
+\references{pirouette_article/article}
 \include{pirouette_article/content}
-%\include{pirouette_article/supplement}
-
-
+\include{pirouette_article/supplement}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % razzo
@@ -160,45 +150,22 @@ Rich\`el J.C. Bilderbeek, Giovanni Laudanno, Rampal S. Etienne
 \label{chapter_razzo}
 Giovanni Laudanno, Rich\`el J.C. Bilderbeek, Rampal S. Etienne
 \newpage
-\input{razzo_article/razzo-abstract.tex}
-\input{razzo_article/razzo-introduction.tex}
+%\input{razzo_article/razzo-abstract.tex}
+%\input{razzo_article/razzo-introduction.tex}
 %\input{razzo_article/razzo-methods.tex}
 %\input{razzo_article/tab_simparameters.tex}
 %\input{razzo_article/razzo-results.tex}
 %\input{razzo_article/fig_results.tex}
-\input{razzo_article/razzo-discussion.tex}
+%\input{razzo_article/razzo-discussion.tex}
 %\input{razzo_article/razzo-supplement.tex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% raket
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{raket}
-\label{chapter_raket}
-Rich\`el J.C. Bilderbeek, Rampal S. Etienne
-\newpage
-
-Unsure if this will make it...
-
-%\include{raket_article/content}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Conlusion
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{conclusion/conclusion}
-
-% RJCB: Nah, don't need it
-%\include{epilogue/epilogue}
-
-% RJCB: Nah, don't need it
-% \include{acks/acks}
-
-\include{summary/summary}
-\include{samenvatting/samenvatting}
+\include{thesis_synthesis/synthesis}
 
 %% Use letters for the chapter numbers of the appendices.
 \appendix
-
-%\include{appendix-a/appendix-a}
 
 %% Turn off thumb indices for unnumbered chapters.
 \thumbfalse
@@ -207,9 +174,6 @@ Unsure if this will make it...
 % CV
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{cv/cv}
-
-% RJCB: Nah, don't need it
-% \include{publications/publications}
 
 \end{document}
 
