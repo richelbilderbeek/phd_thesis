@@ -11,14 +11,14 @@ bibtex thesis_synthesis/synthesis
 pdflatex dissertation
 pdflatex dissertation
 
-# LaTeX creates two empty pages at the start of the thesis.
-# Remove these
-pdftk dissertation.pdf cat 3-end output dissertation_clean.pdf
-mv dissertation_clean.pdf dissertation.pdf
-
 # Also an option:
 #
 #   pdflatex dissertation --shell-escape
 #
 #
+
+# LaTeX creates two empty pages at the start of the thesis.
+# Remove these
+pdftk dissertation.pdf cat 3-end output thesis.pdf
+rm dissertation.pdf
 
