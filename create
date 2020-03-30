@@ -6,7 +6,6 @@ bibtex thesis_introduction/introduction
 bibtex babette_article/article/article
 bibtex pirouette_article/content
 bibtex razzo_article/content
-bibtex raket_article/content
 bibtex thesis_synthesis/synthesis
 pdflatex dissertation
 pdflatex dissertation
