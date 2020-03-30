@@ -114,52 +114,58 @@
 %% Turn on thumb indices.
 \thumbtrue
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Introduction
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \references{thesis_introduction/introduction}
 \include{thesis_introduction/introduction}
-%\bibliographystyle{mee}
-%\bibliography{thesis_introduction/introduction}
+\references{thesis_introduction/introduction}
 \input{thesis_introduction/introduction_photo_attribution}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% babette
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{babette: BEAUti 2, BEAST2 and Tracer for R}
-\label{chapter_babette}
-Rich\`el J.C. Bilderbeek, Rampal S. Etienne
-\newpage
-\references{babette_article/article/article}
-\include{babette_article/article/content}
-\include{babette_article/article/figure_1}
+\iffalse
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% pirouette
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{pirouette}
-\label{chapter_pirouette}
-Rich\`el J.C. Bilderbeek, Giovanni Laudanno, Rampal S. Etienne
-\newpage
-\references{pirouette_article/article}
-\include{pirouette_article/content}
-\include{pirouette_article/supplement}
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % babette
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \chapter{babette: BEAUti 2, BEAST2 and Tracer for R}
+  \label{chapter_babette}
+  Rich\`el J.C. Bilderbeek, Rampal S. Etienne
+  \newpage
+  \include{babette_article/article/babette_content}
+  \references{babette_article/article/babette_article}
+  \include{babette_article/article/babette_figure_1}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% razzo
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{razzo}
-\label{chapter_razzo}
-Giovanni Laudanno, Rich\`el J.C. Bilderbeek, Rampal S. Etienne
-\newpage
-\input{razzo_article/razzo-abstract.tex}
-\input{razzo_article/razzo-introduction.tex}
-\input{razzo_article/razzo-methods.tex}
-\input{razzo_article/tab_simparameters.tex}
-\input{razzo_article/razzo-results.tex}
-\input{razzo_article/fig_results.tex}
-\input{razzo_article/razzo-discussion.tex}
-\input{razzo_article/razzo-supplement.tex}
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % pirouette
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \chapter{pirouette}
+  \label{chapter_pirouette}
+  Rich\`el J.C. Bilderbeek, Giovanni Laudanno, Rampal S. Etienne
+  \newpage
+  \references{pirouette_article/article}
+  \include{pirouette_article/content}
+  \include{pirouette_article/supplement}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % razzo
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \chapter{razzo}
+  \label{chapter_razzo}
+  Giovanni Laudanno, Rich\`el J.C. Bilderbeek, Rampal S. Etienne
+  \newpage
+  \input{razzo_article/razzo-abstract.tex}
+  \input{razzo_article/razzo-introduction.tex}
+  \input{razzo_article/razzo-methods.tex}
+  \input{razzo_article/tab_simparameters.tex}
+  \input{razzo_article/razzo-results.tex}
+  \input{razzo_article/fig_results.tex}
+  \input{razzo_article/razzo-discussion.tex}
+  \input{razzo_article/razzo-supplement.tex}
+
+
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Synthesis

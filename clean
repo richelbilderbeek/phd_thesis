@@ -1,8 +1,0 @@
-#!/bin/bash
-rm dissertation.toc
-rm dissertation.aux
-rm dissertation.bbl
-rm dissertation.blg
-rm dissertation.log
-rm dissertation.out
-rm dissertation.pdf
