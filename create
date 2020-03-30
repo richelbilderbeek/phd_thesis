@@ -2,16 +2,23 @@
 
 pdflatex dissertation
 #bibtex dissertation
-bibtex introduction/introduction
+bibtex thesis_introduction/introduction
 bibtex babette_article/article/article
 bibtex pirouette_article/content
 bibtex razzo_article/content
 bibtex raket_article/content
+bibtex thesis_synthesis/synthesis
 pdflatex dissertation
 pdflatex dissertation
+
+# LaTeX creates two empty pages at the start of the thesis.
+# Remove these
+pdftk dissertation.pdf cat 3-end output dissertation_clean.pdf
+mv dissertation_clean.pdf dissertation.pdf
 
 # Also an option:
 #
 #   pdflatex dissertation --shell-escape
 #
 #
+
