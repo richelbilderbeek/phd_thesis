@@ -10,6 +10,7 @@ bibtex razzo_article/razzo_article
 bibtex thesis_synthesis/synthesis
 pdflatex dissertation
 pdflatex dissertation
+pdflatex dissertation
 
 # Also an option:
 #
