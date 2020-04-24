@@ -1,15 +1,15 @@
 #!/bin/bash
 
-pdflatex dissertation
+pdflatex dissertation > /dev/null
 #bibtex dissertation
-bibtex thesis_introduction/introduction
-bibtex babette_article/article/babette_article
-bibtex pirouette_article/pirouette_article
-bibtex pirouette_article/pirouette_supplement
-bibtex razzo_article/razzo_article
-bibtex thesis_synthesis/synthesis
-pdflatex dissertation
-pdflatex dissertation
+bibtex thesis_introduction/introduction > /dev/null
+bibtex babette_article/article/babette_article > /dev/null
+bibtex pirouette_article/pirouette_article > /dev/null
+bibtex pirouette_article/pirouette_supplement > /dev/null
+bibtex razzo_article/razzo_article > /dev/null
+bibtex thesis_synthesis/synthesis > /dev/null
+pdflatex dissertation > /dev/null
+pdflatex dissertation > /dev/null
 pdflatex dissertation
 
 # Also an option:
