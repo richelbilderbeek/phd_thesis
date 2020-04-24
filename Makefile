@@ -22,7 +22,7 @@ $(makefile_names): $(repo_names)
 	cd $(dir $@) && $(MAKE)
 
 clean:
-	rm -rf $(repo_names) pirouette_example_30
+	rm -rf $(repo_names) pirouette_example_30 *.aux *.cls *.log *.out *.toc
 
 # pirouette example 30
 #
@@ -35,12 +35,9 @@ pirouette_example_30/example_30_314/esses_gen.latex: pirouette_example_30/exampl
 pirouette_example_30/example_30/esses_gen.latex: pirouette_example_30/errors.png
 
 pirouette_example_30/errors.png: pirouette_example_30/pirouette_example_30.zip
-	cd pirouette_example_30 && unzip -f pirouette_example_30.zip
+	cd pirouette_example_30 && unzip -u pirouette_example_30.zip
 
 pirouette_example_30/pirouette_example_30.zip:
 	mkdir pirouette_example_30
 	cd pirouette_example_30 && wget --no-clobber http://www.richelbilderbeek.nl/pirouette_example_30.zip
-
-
-
 
