@@ -22,7 +22,7 @@ $(makefile_names): $(repo_names)
 	cd $(dir $@) && $(MAKE)
 
 clean:
-	rm -rf $(repo_names) pirouette_example_30 *.aux *.cls *.log *.out *.toc
+	rm -rf $(repo_names) pirouette_example_30 *.aux *.log *.out *.toc
 
 # pirouette example 30
 #
