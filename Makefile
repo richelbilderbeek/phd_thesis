@@ -1,6 +1,6 @@
 repo_names = \
   thesis_introduction \
-  #babette_article \
+  babette_article \
   #pirouette_article \
   #razzo_article \
   #thesis_synthesis \
@@ -16,13 +16,13 @@ thesis.pdf: dissertation.tex $(makefile_names)
 	./view.sh
 
 $(repo_names):
-	git clone https://github.com/richelbilderbeek/$@.git
+	git clone -b develop https://github.com/richelbilderbeek/$@.git
 
 $(makefile_names): $(repo_names)
 	cd $(dir $@) && $(MAKE)
 
-#clean:
-#	rm -rf $(repo_names)
+clean:
+	rm -rf $(repo_names)
 
 
 
