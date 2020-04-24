@@ -16,7 +16,7 @@ thesis.pdf: dissertation.tex $(makefile_names)
 	./view.sh
 
 $(repo_names):
-	git clone -b develop https://github.com/richelbilderbeek/$@.git
+	git clone --depth 1 --branch develop https://github.com/richelbilderbeek/$@.git
 
 $(makefile_names): $(repo_names)
 	cd $(dir $@) && $(MAKE)
