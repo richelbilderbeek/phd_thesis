@@ -1,9 +1,9 @@
 repo_names = \
   thesis_introduction \
   babette_article \
-  #pirouette_article \
-  #razzo_article \
-  #thesis_synthesis \
+  pirouette_article \
+  razzo_article \
+  thesis_synthesis \
   thesis_summary \
   thesis_samenvatting
 
