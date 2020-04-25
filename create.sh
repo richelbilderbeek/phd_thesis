@@ -5,9 +5,8 @@ pdflatex dissertation
 #bibtex dissertation
 bibtex thesis_introduction/introduction > /dev/null
 bibtex babette_article/article/babette_article > /dev/null
-bibtex pirouette_article/pirouette_header > /dev/null
-#bibtex pirouette_article/pirouette_article > /dev/null
-#bibtex pirouette_article/pirouette_supplement > /dev/null
+bibtex pirouette_article/pirouette_article > /dev/null
+bibtex pirouette_article/pirouette_supplement > /dev/null
 bibtex razzo_article/razzo_article > /dev/null
 bibtex thesis_synthesis/synthesis > /dev/null
 echo "pdflatex 2/4"
