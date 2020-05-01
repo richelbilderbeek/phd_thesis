@@ -9,9 +9,18 @@ repo_names = \
 
 makefile_names = $(foreach repo_name,$(repo_names),$(repo_name)/Makefile)
 
+pirouette_filenames = \
+  pirouette_example_30/example_30_314/esses_gen.latex \
+  pirouette_example_30/example_30_314/esses_best.latex \
+  pirouette_example_30/example_30_314/esses_twin_gen.latex \
+  pirouette_example_30/example_30_314/esses_twin_best.latex \
+  pirouette_example_30/example_30_314/evidence_true.latex \
+  pirouette_example_30/example_30_314/evidence_twin.latex
+
 all: thesis.pdf
 
-thesis.pdf: dissertation.tex $(makefile_names) pirouette_example_30/example_30_314/esses_gen.latex
+thesis.pdf: dissertation.tex $(makefile_names) $(pirouette_filenames)
+
 	./create.sh
 	./view.sh
 
@@ -30,7 +39,7 @@ clean:
 # Re-create it locally
 #
 pirouette_example_30/example_30_314/esses_gen.latex: pirouette_example_30/example_30/esses_gen.latex
-	cd pirouette_example_30 && cp -r example_30 example_30_314
+	./add_labels_to_pirouette_tables.sh
 
 pirouette_example_30/example_30/esses_gen.latex: pirouette_example_30/errors.png
 
