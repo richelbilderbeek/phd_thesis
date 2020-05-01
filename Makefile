@@ -25,7 +25,7 @@ thesis.pdf: dissertation.tex $(makefile_names) $(pirouette_filenames)
 	./view.sh
 
 $(repo_names):
-	git clone --depth 5 --branch develop https://github.com/richelbilderbeek/$@.git
+	git clone https://github.com/richelbilderbeek/$@.git
 
 $(makefile_names): $(repo_names)
 	cd $(dir $@) && $(MAKE)
