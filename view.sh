@@ -6,4 +6,4 @@
 #
 #   ./view.sh
 #
-qpdfview thesis.pdf
+evince thesis.pdf
