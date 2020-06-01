@@ -2,13 +2,26 @@ language: generic
 dist: bionic
 
 install:
+  # Newer tools
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
   # Check dead links
-  - sudo apt-get install -qq npm
-  - npm config set strict-ssl false
-  - sudo npm install -g markdown-link-check
+  #- sudo apt-get install -qq npm
+  #- npm config set strict-ssl false
+  #- sudo npm install -g markdown-link-check
+  # spell
+  - apt-cache search spell
+  - sudo apt install spell
+  # proselint
+  - sudo pip install proselint
+  # pandoc
+  - sudo apt install pandoc 
+  # imagemagick
+  - sudo apt install imagemagick
+  # PDF creation
+  - sudo apt install texlive-latex-recommended texlive-latex-extra texlive-fonts-extra texlive-fonts-recommended texlive-extra-utils texlive-humanities texlive-full texlive-games texlive-pictures texlive-science texlive-xetex ktikz
+  # No: pgf
 
 script:
   - make
-  # Check dead links
-  - rm .travis.yml
-  - ./scripts/check_dead_links
+
