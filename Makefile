@@ -4,6 +4,7 @@ repo_names = \
   pirouette_article \
   razzo_article \
   thesis_synthesis \
+  thesis_propositions \
   thesis_summary \
   thesis_samenvatting
 
