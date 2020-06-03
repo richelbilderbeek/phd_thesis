@@ -1,27 +1,24 @@
 # Thesis
 
-Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
----|---
-`master`|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis)
+Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
+---------|-------------------------------------------------------------------------------------------------------------------------------------------
+`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/thesis.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis)
+`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/thesis)
 
 Use LaTeX template from [Victor Caldas](https://github.com/vcaldas/Groningen-thesis-template).
 
-# Thesis
+# Dependenies
 
-Inspired by [Thijs Janzen's thesis](https://www.rug.nl/research/portal/en/publications/what-lies-beneath(7ee08462-2d2c-48ca-be1b-2bbdc4d0bc08).html): 
+Chapter                                                                       |Build status
+------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------
+[thesis_introduction](https://github.com/richelbilderbeek/thesis_introduction)|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis_introduction.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis_introduction)
+[babette_article](https://github.com/richelbilderbeek/babette_article)        |[![Build Status](https://travis-ci.org/richelbilderbeek/babette_article.svg?branch=master)](https://travis-ci.org/richelbilderbeek/babette_article)
+[pirouette_article](https://github.com/richelbilderbeek/pirouette_article)    |[![Build Status](https://travis-ci.org/richelbilderbeek/pirouette_article.svg?branch=master)](https://travis-ci.org/richelbilderbeek/pirouette_article)
+[razzo_article](https://github.com/richelbilderbeek/razzo_article)            |[![Build Status](https://travis-ci.org/richelbilderbeek/razzo_article.svg?branch=master)](https://travis-ci.org/richelbilderbeek/razzo_article)
+[thesis_synthesis](https://github.com/richelbilderbeek/thesis_synthesis)      |[![Build Status](https://travis-ci.org/richelbilderbeek/thesis_synthesis.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis_synthesis)
+[thesis_samenvatting](https://github.com/richelbilderbeek/thesis_samenvatting)|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis_samenvatting.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis_samenvatting)
+[thesis_summary](https://github.com/richelbilderbeek/thesis_summary)          |[![Build Status](https://travis-ci.org/richelbilderbeek/thesis_summary.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis_summary)
+[thesis_propositions](https://github.com/richelbilderbeek/thesis_propositions)|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis_propositions.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis_propositions)
 
- * [ ] [Title and contents](title_and_contents/README.md)
- * [ ] [Introduction](introduction/README.md)
- * [ ] [Chapter 1](chapter_1/README.md)
- * [ ] [Chapter 2](chapter_2/README.md)
- * [ ] [Chapter 3](chapter_3/README.md)
- * [ ] [Chapter 4](chapter_4/README.md)
- * [ ] [Chapter 5](chapter_5/README.md)
- * [ ] [Synthesis](synthesis/README.md)
- * [ ] [References](references/README.md)
- * [ ] [Summary](summary/README.md)
- * [ ] [Samenvatting](samenvatting/README.md)
- * [ ] [Acknowledgements](acknowledgements/README.md)
 
- * [ ] [Propositions](propositions/README.md)
- 
+
