@@ -1,8 +1,8 @@
 # Publicity
 
-## Summary
+## 1. Summary
 
-> 1. Wilt u een korte Nederlandse en Engelse samenvatting geven van uw 
+> Wilt u een korte Nederlandse en Engelse samenvatting geven van uw 
 > promotieonderzoek (elk max. 250 woorden)? Wij gebruiken deze korte 
 > samenvattingen onder meer voor informatie over uw onderzoek op internet 
 > en voor de media.
@@ -41,19 +41,23 @@ Als 'pirouette' wordt toegepast op een nieuw soortvormingsmodel,
 concluderen we dat, mocht de natuur meerdere soortvorming op hetzelfde
 moment toestaan, dat de gewone soortvormingsmodellen desondanks
 prima evolutionaire bomen kan maken.
+ 
+> 2. 	Wilt u de Nederlandse samenvatting van het proefschrift in onderstaand veld plakken?
+ 
+> titel manuscript
 
-korte populaire samenvatting Nederlands
-De korte populaire samenvattingen zijn bestemd voor de afdeling communicatie en de universiteitsbibliotheek.
-	
+Speciation and the error we make in phylogenetic inference
  
-2. 	Wilt u de Nederlandse samenvatting van het proefschrift in onderstaand veld plakken?
- 
-titel manuscript
-	Speciation and the error we make in phylogenetic inference
- 
-Nederlandse wetenschappelijke samenvatting (proefschriftsamenvatting)
-U wordt verzocht ook de uitgebreide wetenschappelijke samenvatting in het Nederlands los aan te leveren (formeel is deze samenvatting onderdeel van het proefschrift). Deze samenvatting is bestemd voor de afdeling Communicatie om meer achtergrondinformatie over het onderzoek te verwerven. De afdeling Communicatie wil graag zowel de platte tekst hebben als een upload van het PDF-document (vanwege eventuele grafieken, wiskundige formules, enz).
-	TODO
+## Nederlandse wetenschappelijke samenvatting (proefschriftsamenvatting)
+
+> U wordt verzocht ook de uitgebreide wetenschappelijke samenvatting in het 
+> Nederlands los aan te leveren (formeel is deze samenvatting onderdeel van het 
+> proefschrift). Deze samenvatting is bestemd voor de afdeling Communicatie om 
+> meer achtergrondinformatie over het onderzoek te verwerven. De afdeling 
+> Communicatie wil graag zowel de platte tekst hebben als een upload van het 
+> PDF-document (vanwege eventuele grafieken, wiskundige formules, enz).
+
+ * [ ] Copy-paste
  
 Nederlandse wetenschappelijke samenvatting (PDF)
 Indien u beschikt over de wetenschappelijke samenvatting als PDF document kunt u dat hier uploaden
