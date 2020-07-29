@@ -19,6 +19,8 @@ thesis.pdf: dissertation.tex $(makefile_names) $(pirouette_filename)
 	cp pirouette_article/pirouette_article.bib pirouette_article/pirouette_supplement.bib
 	cp pirouette_article/pirouette_article.bib .
 	cp pirouette_article/pirouette_supplement.bib .
+	sed -i 's/%\\bibliographystyle{pirouette_mee}/\\bibliographystyle{pirouette_mee}/' pirouette_article/pirouette_supplement.tex
+	sed -i 's/%\\bibliography{pirouette_article}/\\bibliography{pirouette_article}/' pirouette_article/pirouette_supplement.tex
 	./create.sh
 	./view.sh
 
