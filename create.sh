@@ -2,7 +2,7 @@
 
 echo "pdflatex 1/4"
 pdflatex dissertation
-#bibtex dissertation
+bibtex dissertation
 bibtex thesis_introduction/introduction > /dev/null
 bibtex babette_article/article/babette_article > /dev/null
 bibtex pirouette_article/pirouette_article > /dev/null
