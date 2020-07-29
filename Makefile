@@ -17,6 +17,7 @@ all: thesis.pdf
 
 thesis.pdf: dissertation.tex $(makefile_names) $(pirouette_filename)
 	cp pirouette_article/pirouette_article.bib .
+	cp pirouette_article/pirouette_article.bib pirouette_supplement.bib
 	./create.sh
 	./view.sh
 
