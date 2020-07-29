@@ -19,7 +19,7 @@ install:
   # PDF manipulation
   - sudo apt install qpdf
   # R
-  - sudo apt install r-base-core
+  - sudo apt install r-base-core r-cran-readr r-cran-stringr r-cran-testthat r-cran-ape
   # No: pgf
 
 script:
