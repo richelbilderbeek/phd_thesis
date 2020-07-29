@@ -24,4 +24,5 @@ install:
 
 script:
   - make
+  - if [ ! -f thesis.pdf ]; then echo "file 'thesis.pdf' not found" ; exit 1 ; fi
 
