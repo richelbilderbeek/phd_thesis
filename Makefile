@@ -22,7 +22,6 @@ thesis.pdf: dissertation.tex $(makefile_names) $(pirouette_filename)
 	sed -i 's/%\\bibliographystyle{pirouette_mee}/\\bibliographystyle{pirouette_mee}/' pirouette_article/pirouette_supplement.tex
 	sed -i 's/%\\bibliography{pirouette_article}/\\bibliography{pirouette_article}/' pirouette_article/pirouette_supplement.tex
 	./create.sh
-	./view.sh
 
 $(repo_names):
 	git clone https://github.com/richelbilderbeek/$@.git
