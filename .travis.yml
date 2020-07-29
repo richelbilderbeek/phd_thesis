@@ -17,8 +17,7 @@ install:
   # PDF creation
   - sudo apt install texlive-latex-recommended texlive-latex-extra texlive-fonts-extra texlive-fonts-recommended texlive-extra-utils texlive-humanities texlive-full texlive-games texlive-pictures texlive-science texlive-xetex ktikz
   # PDF manipulation
-  - apt search pdftk
-  - sudo apt install pdftk
+  - sudo apt install qpdf
   # R
   - sudo apt install r-base-core
   # No: pgf
