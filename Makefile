@@ -10,18 +10,13 @@ repo_names = \
 
 makefile_names = $(foreach repo_name,$(repo_names),$(repo_name)/Makefile)
 
-pirouette_filenames = \
-  pirouette_example_30/example_30_314/esses_gen.latex \
-  pirouette_example_30/example_30_314/esses_best.latex \
-  pirouette_example_30/example_30_314/esses_twin_gen.latex \
-  pirouette_example_30/example_30_314/esses_twin_best.latex \
-  pirouette_example_30/example_30_314/evidence_true.latex \
-  pirouette_example_30/example_30_314/evidence_twin.latex
+pirouette_filename = \
+  pirouette_example_30/example_30/phylogeny.newick
 
 all: thesis.pdf
 
-thesis.pdf: dissertation.tex $(makefile_names) $(pirouette_filenames)
-
+thesis.pdf: dissertation.tex $(makefile_names) $(pirouette_filename)
+	cp pirouette_article/pirouette_article.bib .
 	./create.sh
 	./view.sh
 
@@ -35,19 +30,24 @@ clean:
 	rm -rf $(repo_names) pirouette_example_30 *.aux *.log *.out *.toc
 
 # pirouette example 30
+
+$(pirouette_filename):
+	cp -r pirouette_article/pirouette_example_30 .
+
+# pirouette example 30
 #
 # The manuscript needs 'pirouette_example_30/example_30_314/esses_gen.latex'.
 # Re-create it locally
 #
-pirouette_example_30/example_30_314/esses_gen.latex: pirouette_example_30/example_30/esses_gen.latex
-	./add_labels_to_pirouette_tables.sh
-
-pirouette_example_30/example_30/esses_gen.latex: pirouette_example_30/errors.png
-
-pirouette_example_30/errors.png: pirouette_example_30/pirouette_example_30.zip
-	cd pirouette_example_30 && unzip -u pirouette_example_30.zip
-
-pirouette_example_30/pirouette_example_30.zip:
-	mkdir pirouette_example_30
-	cd pirouette_example_30 && wget --no-clobber http://www.richelbilderbeek.nl/pirouette_example_30.zip
+#pirouette_example_30/example_30_314/esses_gen.latex: pirouette_example_30/example_30/esses_gen.latex
+#	./add_labels_to_pirouette_tables.sh
+#
+#pirouette_example_30/example_30/esses_gen.latex: pirouette_example_30/errors.png
+#
+#pirouette_example_30/errors.png: pirouette_example_30/pirouette_example_30.zip
+#	cd pirouette_example_30 && unzip -u pirouette_example_30.zip
+#
+#pirouette_example_30/pirouette_example_30.zip:
+#	mkdir pirouette_example_30
+#	cd pirouette_example_30 && wget --no-clobber http://www.richelbilderbeek.nl/pirouette_example_30.zip
 
