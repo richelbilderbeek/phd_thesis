@@ -22,16 +22,15 @@ Chapter                                                                       |B
 
 # Data
 
-Data                |DOI
---------------------|----------------------------------------------------------------------------------------------------------------
-thesis              |.
-babette_article     |[![DOI](https://zenodo.org/badge/105884140.svg)](https://zenodo.org/badge/latestdoi/105884140)
-pirouette_article   |.
-pirouette           |.
-pirouette_examples  |.
-razzo_article       |.
-razzo_project       |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969932.svg)](https://doi.org/10.5281/zenodo.3969932)
-razzo_article v1.0  |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969899.svg)](https://doi.org/10.5281/zenodo.3969899)
+Data                  |DOI
+----------------------|----------------------------------------------------------------------------------------------------------------
+thesis                |.
+babette_article       |[![DOI](https://zenodo.org/badge/105884140.svg)](https://zenodo.org/badge/latestdoi/105884140)
+pirouette v1.6.4      |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969839.svg)](https://doi.org/10.5281/zenodo.3969839)
+pirouette_article v1.3|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969845.svg)](https://doi.org/10.5281/zenodo.3969845)
+pirouette_examples    |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3970000.svg)](https://doi.org/10.5281/zenodo.3970000)
+razzo_project         |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969932.svg)](https://doi.org/10.5281/zenodo.3969932)
+razzo_article v1.0    |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969899.svg)](https://doi.org/10.5281/zenodo.3969899)
 
 
 
