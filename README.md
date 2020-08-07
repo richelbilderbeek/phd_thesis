@@ -22,14 +22,19 @@ Chapter                                                                       |B
 
 # Data
 
-Data                  |Type          |DOI
-----------------------|--------------|----------------------------------------------------------------------------------------------------------------
-thesis                |Document      |.
-babette_article       |Document      |[![DOI](https://zenodo.org/badge/105884140.svg)](https://zenodo.org/badge/latestdoi/105884140)
-pirouette v1.6.4      |Software      |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969839.svg)](https://doi.org/10.5281/zenodo.3969839)
-pirouette_article v1.3|Document      |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969845.svg)](https://doi.org/10.5281/zenodo.3969845)
-pirouette_examples    |Data          |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3970000.svg)](https://doi.org/10.5281/zenodo.3970000)
-razzo v1.0            |Software      |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3970327.svg)](https://doi.org/10.5281/zenodo.3970327)
-razzo_article v1.0    |Document      |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969899.svg)](https://doi.org/10.5281/zenodo.3969899)
-razzo_project         |Data          |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3969932.svg)](https://doi.org/10.5281/zenodo.3969932)
+Data                     |Type          |DOI (archived version of repository)    |Current reposity
+-------------------------|--------------|----------------------------------------|--------------------------------------------------------
+thesis                   |Document      |`https://doi.org/10.5281/zenodo.3975586`|`https://github.com/richelbilderbeek/thesis`
+1. Introduction          |Document      |`https://doi.org/10.5281/zenodo.3975594`|`https://github.com/richelbilderbeek/thesis_introduction`
+2. babette_article       |Document      |`https://doi.org/10.5281/zenodo.3755555`|`https://github.com/richelbilderbeek/babette_article`
+2. babette v2.1.3        |Software      |`https://doi.org/10.5281/zenodo.3974129`|`https://github.com/ropensci/babette`
+3. pirouette_article v1.3|Document      |`https://doi.org/10.5281/zenodo.3969845`|`https://github.com/richelbilderbeek/pirouette_article`
+3. pirouette_examples    |Data          |`https://doi.org/10.5281/zenodo.3970000`|`https://github.com/richelbilderbeek/pirouette_examples`
+3. pirouette v1.6.4      |Software      |`https://doi.org/10.5281/zenodo.3969839`|`https://github.com/richelbilderbeek/pirouette`
+4. razzo_article v1.0    |Document      |`https://doi.org/10.5281/zenodo.3969899`|`https://github.com/richelbilderbeek/razzo_article`
+4. razzo v1.0            |Software      |`https://doi.org/10.5281/zenodo.3970327`|`https://github.com/richelbilderbeek/razzo`
+4. razzo_project         |Data          |`https://doi.org/10.5281/zenodo.3969932`|`https://github.com/richelbilderbeek/razzo_project`
+5. Synthesis             |Document      |`https://doi.org/10.5281/zenodo.3975597`|`https://github.com/richelbilderbeek/thesis_synthesis`
+6. Summary               |Document      |`https://doi.org/10.5281/zenodo.3975601`|`https://github.com/richelbilderbeek/thesis_summary`
+7. Samenvatting          |Document      |`https://doi.org/10.5281/zenodo.3975606`|`https://github.com/richelbilderbeek/thesis_samenvatting`
 
