@@ -17,10 +17,13 @@ install:
   - sudo apt install imagemagick
   # PDF creation
   - sudo apt install texlive-latex-recommended texlive-latex-extra texlive-fonts-extra texlive-fonts-recommended texlive-extra-utils texlive-humanities texlive-full texlive-games texlive-pictures texlive-science texlive-xetex ktikz
+  # PDF manipulation
+  - sudo apt install qpdf
   # R
   - sudo apt install r-base-core r-cran-readr r-cran-stringr r-cran-testthat r-cran-ape
   # No: pgf
 
 script:
   - make
+  - if [ ! -f thesis.pdf ]; then echo "file 'thesis.pdf' not found" ; exit 1 ; fi
 
