@@ -38,3 +38,12 @@ Synthesis             |Document      |`https://doi.org/10.5281/zenodo.3975597`|`
 Summary               |Document      |`https://doi.org/10.5281/zenodo.3975601`|`https://github.com/richelbilderbeek/thesis_summary`
 Samenvatting          |Document      |`https://doi.org/10.5281/zenodo.3975606`|`https://github.com/richelbilderbeek/thesis_samenvatting`
 
+## Opponents
+
+ * Ernst Wit
+ * Florian Hartig
+ * Han Olff
+ * Hanno Hildenbrandt
+ * Luke Harmon
+ * Thijs Janzen
+
