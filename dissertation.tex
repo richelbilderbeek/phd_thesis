@@ -14,6 +14,15 @@
 \else
    \geometry{papersize={176mm,246mm}}
 
+
+% From https://tex.stackexchange.com/a/36881
+\usepackage{afterpage}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
 \graphicspath{
   {images/}
   {thesis_introduction/}
@@ -135,6 +144,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Introduction
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\afterpage{\blankpage}
+% Blank page
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+%\newpage
+
 \include{thesis_introduction/introduction}
 \references{thesis_introduction/introduction}
 \input{thesis_introduction/introduction_photo_attribution}
