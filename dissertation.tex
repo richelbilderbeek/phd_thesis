@@ -1,6 +1,19 @@
 %% Use \documentclass[print]{dissertation} to export the document
 \documentclass[]{dissertation}
 
+% From Ridderprint
+%% Set the paper size to 17 by 24 cm, approximately halfway between A4 and A5.
+\if@print
+   %% In print mode we add a 3 mm bleed on the outside of the page.
+   \geometry{
+     papersize = {176mm,246mm},
+     layoutsize = {170mm,240mm},
+     layoutoffset = {3mm,3mm},
+     bindingoffset = -3mm
+   }
+\else
+   \geometry{papersize={176mm,246mm}}
+
 \graphicspath{
   {images/}
   {thesis_introduction/}
