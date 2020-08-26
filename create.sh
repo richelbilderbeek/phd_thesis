@@ -22,9 +22,13 @@ pdflatex dissertation
 #
 #
 
+
+
 # LaTeX creates two empty pages at the start of the thesis.
 # Remove these
 #pdftk dissertation.pdf cat 3-end output thesis.pdf
-qpdf dissertation.pdf thesis.pdf --pages dissertation.pdf 3-z --
+#qpdf dissertation.pdf thesis.pdf --pages dissertation.pdf 3-z --
 #rm dissertation.pdf
+
+mv dissertation.pdf thesis.pdf
 
