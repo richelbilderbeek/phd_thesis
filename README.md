@@ -47,3 +47,17 @@ Samenvatting          |Document      |`https://doi.org/10.5281/zenodo.3975606`|`
  * Luke Harmon
  * Thijs Janzen
 
+## FAQ
+
+### Hey, there is [something sloppy] in your thesis!
+
+Agreed, examples are:
+
+ * page 61: chapter indicator overlaps with table
+ * many more
+
+These things are seen as features, to remind us that never ever is really
+done and we should move on before things are perfect.
+
+
+
