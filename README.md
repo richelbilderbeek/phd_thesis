@@ -7,7 +7,13 @@ Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 Use LaTeX template from [Victor Caldas](https://github.com/vcaldas/Groningen-thesis-template).
 
-# Dependenies
+## Downloads
+
+ * [thesis](https://github.com/richelbilderbeek/thesis/releases/download/v1.9/thesis.pdf)
+ * [cover](https://github.com/richelbilderbeek/thesis/releases/download/v1.9/146201.Bilderbeek.R9.OMS_1.pdf)
+ * [propositions](https://github.com/richelbilderbeek/thesis/releases/download/v1.9/propositions.pdf)
+
+## Dependenies
 
 Chapter                                                                       |Build status
 ------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -20,7 +26,7 @@ Chapter                                                                       |B
 [thesis_summary](https://github.com/richelbilderbeek/thesis_summary)          |[![Build Status](https://travis-ci.org/richelbilderbeek/thesis_summary.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis_summary)
 [thesis_propositions](https://github.com/richelbilderbeek/thesis_propositions)|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis_propositions.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis_propositions)
 
-# Data
+## Data
 
 Data                  |Type          |DOI (archived version of repository)    |Current reposity
 ----------------------|--------------|----------------------------------------|--------------------------------------------------------
@@ -58,6 +64,4 @@ Agreed, examples are:
 
 These things are seen as features, to remind us that never ever is really
 done and we should move on before things are perfect.
-
-
 
