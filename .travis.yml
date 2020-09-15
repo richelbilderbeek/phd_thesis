@@ -27,3 +27,9 @@ script:
   - make
   - if [ ! -f thesis.pdf ]; then echo "file 'thesis.pdf' not found" ; exit 1 ; fi
 
+after_failure:
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+
+after_success:
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+
