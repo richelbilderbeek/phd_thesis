@@ -65,3 +65,8 @@ Agreed, examples are:
 These things are seen as features, to remind us that never ever is really
 done and we should move on before things are perfect.
 
+## Links
+
+ * [My PhD defense](https://github.com/richelbilderbeek/phd_defense)
+ * [RuG thesis download page](https://www.rug.nl/research/portal/nl/publications/speciation-and-the-error-we-make-in-phylogenetic-inference(95d847f2-8b46-420e-9eb3-2850b828577e).html)
+
