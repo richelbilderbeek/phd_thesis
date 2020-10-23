@@ -1,0 +1,21 @@
+PhD thesis:
+
+student name: Richel Bilderbeek
+student number: p230198
+title: Speciation and the error we make in phylogenetic inference
+year of publication: 2020
+research group: Etienne Lab, TRES, GELIFES, Groningen
+supervisor(s): Rampal S. Etienne
+contact person: Rampal S. Etienne
+
+contents of the archive: 
+1. `babette`: code of the `babette` package for the article 'babette: BEAUti 2, BEAST2 and Tracer for R'
+2. `babette_article`: the TeX and builds scripts of article 'babette: BEAUti 2, BEAST2 and Tracer for R', see `README.md` how to do so
+3. `pirouette`: code of the `pirouette` package for the article 'Quantifying the impact of an inference model in Bayesian phylogenetics'
+4. `pirouette_article`: the TeX and builds scripts of article 'Quantifying the impact of an inference model in Bayesian phylogenetics', see `README.md` how to do so
+5. `pirouette_examples`: code for the article 'Quantifying the impact of an inference model in Bayesian phylogenetics'
+6. `razzo`: code for the article 'The error in Bayesian phylogenetic reconstruction under diversification dynamics with simultaneous speciation events'
+7. `razzo_article`: the TeX and builds scripts of article 'The error in Bayesian phylogenetic reconstruction under diversification dynamics with simultaneous speciation events', see `README.md` how to do so
+8. `razzo_project`: the data for the article 'The error in Bayesian phylogenetic reconstruction under diversification dynamics with simultaneous speciation events'
+9. `thesis`: the TeX and builds scripts of the complete thesis, see `README.md` how to do so
+

@@ -7,6 +7,14 @@ Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 Use LaTeX template from [Victor Caldas](https://github.com/vcaldas/Groningen-thesis-template).
 
+## Usage
+
+Run the following command to build the PDF:
+
+```
+make
+```
+
 ## Downloads
 
  * [thesis](https://github.com/richelbilderbeek/thesis/releases/download/v1.9/thesis.pdf)
