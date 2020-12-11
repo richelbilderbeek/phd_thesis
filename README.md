@@ -2,8 +2,8 @@
 
 Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 ---------|-------------------------------------------------------------------------------------------------------------------------------------------
-`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/thesis.svg?branch=master)](https://travis-ci.org/richelbilderbeek/thesis)
-`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/thesis.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/thesis)
+`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/phd_thesis.svg?branch=master)](https://travis-ci.org/richelbilderbeek/phd_thesis)
+`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/phd_thesis.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/phd_thesis)
 
 Use LaTeX template from [Victor Caldas](https://github.com/vcaldas/Groningen-thesis-template).
 
@@ -17,9 +17,9 @@ make
 
 ## Downloads
 
- * [thesis](https://github.com/richelbilderbeek/thesis/releases/download/v1.9/thesis.pdf)
- * [cover](https://github.com/richelbilderbeek/thesis/releases/download/v1.9/146201.Bilderbeek.R9.OMS_1.pdf)
- * [propositions](https://github.com/richelbilderbeek/thesis/releases/download/v1.9/propositions.pdf)
+ * [thesis](https://github.com/richelbilderbeek/phd_thesis/releases/download/v1.9/thesis.pdf)
+ * [cover](https://github.com/richelbilderbeek/phd_thesis/releases/download/v1.9/146201.Bilderbeek.R9.OMS_1.pdf)
+ * [propositions](https://github.com/richelbilderbeek/phd_thesis/releases/download/v1.9/propositions.pdf)
 
 ## Dependenies
 
@@ -38,7 +38,7 @@ Chapter                                                                       |B
 
 Data                  |Type          |DOI (archived version of repository)    |Current reposity
 ----------------------|--------------|----------------------------------------|--------------------------------------------------------
-thesis                |Document      |`https://doi.org/10.5281/zenodo.3975586`|`https://github.com/richelbilderbeek/thesis`
+thesis                |Document      |`https://doi.org/10.5281/zenodo.3975586`|`https://github.com/richelbilderbeek/phd_thesis`
 Introduction          |Document      |`https://doi.org/10.5281/zenodo.3975594`|`https://github.com/richelbilderbeek/thesis_introduction`
 babette_article       |Document      |`https://doi.org/10.5281/zenodo.3755555`|`https://github.com/richelbilderbeek/babette_article`
 babette v2.1.3        |Software      |`https://doi.org/10.5281/zenodo.3974129`|`https://github.com/ropensci/babette`
