@@ -70,6 +70,8 @@ Thijs Janzen      |Opponent
 
 Agreed, examples are:
 
+ * front page: `Zernike Institute PhD thesis series 20[YY]-[MM]` -> `Zernike Institute PhD thesis series 2020-09`
+ * front page: `Printed by: [name of printer]` -> `Printed by: Ridderprint B.V.`
  * page 61: chapter indicator overlaps with table
  * many more
 
